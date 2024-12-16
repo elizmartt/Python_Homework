@@ -131,7 +131,7 @@ def home():
 
 @app.route('/favicon.ico')
 def favicon():
-    return '', 204  # Respond with an empty response
+    return '', 204  
 
 
 
